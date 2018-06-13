@@ -1,0 +1,14 @@
+Classic X11 cursors scaled 2x
+
+If you like the aesthetic of the default X cursors but find them too small
+for your 120+ DPI display, look no further.
+This is just the simple cursor font taken from
+https://cgit.freedesktop.org/xorg/font/cursor-misc and scaled up to twice the
+size.
+
+To install, run make and make install. By default, the font is installed to
+/usr/share/fonts/misc, pass OUT= if you want to install it elsewhere.
+
+Requires bdftopcf and mkfontdir.
+
+Eventually I will make the cursors smoother so they look a bit better.
